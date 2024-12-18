@@ -1,0 +1,26 @@
+nav ul {
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a:link,
+nav a:visited {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+}
+nav ul {
+        display: flex;
+        justify-content:flex-end;
+}
+#go-back, #go-forward{
+    background-color: #007a23;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
